@@ -10,10 +10,10 @@ var testCrawler = new Crawler({
     //console.log(result.body);
 
     if (res){
-      var page = result.body;
+      var page = res.body;
       var res = page.match(/price/i);
       if (res && res.length > 0){
-        console.log(result.body);//prints boday where a hit is found
+        console.log(res.body);//prints boday where a hit is found
       }
     }
 
