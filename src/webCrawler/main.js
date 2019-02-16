@@ -9,7 +9,7 @@ var testCrawler = new Crawler({
     //console.log($);
     //console.log(result.body);
 
-    if (error){
+    if (res){
       var page = result.body;
       var res = page.match(/price/i);
       if (res && res.length > 0){
