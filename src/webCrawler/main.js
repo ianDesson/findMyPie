@@ -2,14 +2,14 @@ var Crawler = require("crawler");
 
 var testCrawler = new Crawler({
   maxConnections : 10,
-  callback : function (error, res, done) {
+  callback: function (error, res, done) {
     //Note:
     //console.log(error);
     //console.log(result);
     //console.log($);
     //console.log(result.body);
 
-    if (result){
+    if (error){
       var page = result.body;
       var res = page.match(/price/i);
       if (res && res.length > 0){
