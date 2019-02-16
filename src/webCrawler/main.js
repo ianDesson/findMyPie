@@ -1,3 +1,4 @@
+var $ = require('jQuery');
 var Crawler = require("crawler");
 
 var testCrawler = new Crawler({
