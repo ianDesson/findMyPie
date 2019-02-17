@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button from '@material-ui/Button';
-import AppBar from '@material-ui/AppBar';
-import ToolBar from '@material-ui/ToolBar';
-import Typography from '@material-ui/Typography'
+import Button from '@material-ui/core/Button';
+import AppBar from '@material-ui/core/AppBar';
+import ToolBar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
 
 const NavBar = () => {
   return (
@@ -11,7 +11,7 @@ const NavBar = () => {
     <AppBar position={'static'} style={{backGroundColor: '#ffc86a'}}>
       <ToolBar>
         <Typography variant={'h6'} color={'#ac1300'}>
-        
+          Find Your Pie
         </Typography>
       </ToolBar>
     </AppBar>
