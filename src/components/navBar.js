@@ -1,21 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
-import AppBar from '@material-ui/core/AppBar';
-import ToolBar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+import React from "react";
+import AppBar from "@material-ui/core/AppBar";
+import ToolBar from "@material-ui/core/Toolbar";
+import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
+
+const styles = {
+  button: {
+    textTransform: 'none',
+    color: '#ac1400'
+  }
+}
 
 const NavBar = () => {
   return (
-  <div>
-    <AppBar position={'static'} style={{backGroundColor: '#ffc86a'}}>
+    <AppBar position={"static"} style={{ backgroundColor: "#ffc86a" }}>
       <ToolBar>
-        <Typography variant={'h6'} color={'#ac1300'}>
-          Find Your Pie
-        </Typography>
+        <Button variant="outlined">
+          <Typography variant={"h6"} style={styles.button}>
+            Find Your Pie
+          </Typography>
+        </Button>
       </ToolBar>
     </AppBar>
-  </div>
   );
-}
-export default NavBar
+};
+export default NavBar;
