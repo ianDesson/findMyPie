@@ -19,7 +19,7 @@ const styles = {
 const Layout = () => {
   return (
     <>
-      <NavBar class="nav-wrapper" style={{ position: "fixed" }} />
+      <NavBar class="nav-wrapper" style={{ position: 'fixed' }} />
       <Landing />
       <div style={styles.startContainer}>
         <Typography variant={"h5"}>
