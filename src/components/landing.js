@@ -11,7 +11,9 @@ const styles = {
     background: `url(${BackgroundImage})`,
     height: "800px",
     backgroundAttachment: 'fixed',
-    backgroundSize: "cover"
+    backgroundSize: "contain",
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center'
   }
 };
 
