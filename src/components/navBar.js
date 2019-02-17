@@ -13,7 +13,7 @@ const styles = {
 
 const NavBar = () => {
   return (
-    <AppBar position={"static"} style={{ backgroundColor: "#ffc86a" }}>
+    <AppBar position={"fixed"} style={{ backgroundColor: "#ffc86a" }}>
       <ToolBar>
         <Button variant="outlined" href="#">
           <Typography variant={"h6"} style={styles.button}>

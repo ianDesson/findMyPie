@@ -5,7 +5,10 @@ import Logo from "../images/FindMyPieLogo.png";
 
 const styles = {
   logo: {
-    justifyContent: 'center'
+    justifyContent: 'center',
+    maxWidth: '90%',
+    maxHeight: '90%',
+    objectFit: 'contain'
   },
   backgroundImage: {
     background: `url(${BackgroundImage})`,
